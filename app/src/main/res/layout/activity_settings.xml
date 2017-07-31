@@ -8,11 +8,18 @@
 
     tools:context="com.example.pmixon.music.Settings">
 
+    <Button
+        android:id="@+id/back_to_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/back_to_menu" />
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:orientation="vertical">
+
 
         <TextView
             android:layout_width="match_parent"
@@ -65,6 +72,16 @@
                 android:layout_height="wrap_content"
                 android:text="@string/low" />
         </RadioGroup>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/manage_subscription" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="The manage subscription button would utilize in the In-app Subscriptions model outlined in the Androd documentation. This would also use the Google Play Developer API on the backend using the Google Play developer Console." />
 
     </LinearLayout>
 

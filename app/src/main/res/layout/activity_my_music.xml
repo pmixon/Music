@@ -12,6 +12,12 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/back_to_menu"
+            android:text="@string/back_to_menu"/>
+
         <TextView
             style="@style/SongList"
             android:text="Song name - Artist name - Albumn name" />

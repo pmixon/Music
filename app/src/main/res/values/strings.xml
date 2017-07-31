@@ -21,4 +21,6 @@
     <string name="artist">Artist</string>
     <string name="song">Song</string>
     <string name="album">Album</string>
+    <string name="manage_subscription">Manage Subscription</string>
+    <string name="back_to_menu">main menu</string>
 </resources>
