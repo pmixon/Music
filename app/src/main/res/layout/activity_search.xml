@@ -8,6 +8,13 @@
     android:weightSum="2"
     tools:context="com.example.pmixon.music.SearchActivity">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search: This screen provides a search tool the user can use to find new music. Again, interacting with the back end systems of the music subscription app and then displaying the data in the app UI below."/>
+
+
+
     <Button
         android:id="@+id/back_to_menu"
         android:layout_width="match_parent"

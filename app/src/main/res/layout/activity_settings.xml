@@ -8,6 +8,12 @@
 
     tools:context="com.example.pmixon.music.Settings">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Settings: This screen allows the user to manage the app options as well as setup they payment and subscription plans for paid music."/>
+
+
     <Button
         android:id="@+id/back_to_menu"
         android:layout_width="match_parent"

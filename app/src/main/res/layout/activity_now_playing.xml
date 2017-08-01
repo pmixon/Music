@@ -7,9 +7,17 @@
     android:orientation="vertical"
     tools:context="com.example.pmixon.music.NowPlaying">
 
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Now Playing: This screen displays the current song playing as well as music controls to go back, forward, stop and play the current song."/>
+
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
 
         <Button
             android:id="@+id/back_to_menu"

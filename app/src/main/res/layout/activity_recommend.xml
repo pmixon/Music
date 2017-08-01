@@ -12,6 +12,11 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recommended: This screens uses the history of songs the user has saved and played to recommend new music that might interest the user. This would be computated by back end systems as well and the App would get the data and display in the UI below."/>
+
         <Button
             android:id="@+id/back_to_menu"
             android:layout_width="match_parent"
