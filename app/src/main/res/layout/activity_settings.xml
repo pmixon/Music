@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-
     tools:context="com.example.pmixon.music.Settings">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Settings: This screen allows the user to manage the app options as well as setup they payment and subscription plans for paid music."/>
-
+        android:text="@string/settings_description" />
 
     <Button
         android:id="@+id/back_to_menu"
@@ -25,7 +22,6 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:orientation="vertical">
-
 
         <TextView
             android:layout_width="match_parent"
@@ -46,7 +42,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/keep_playlist_history" />
-
 
         <TextView
             android:layout_width="match_parent"
@@ -87,9 +82,8 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="The manage subscription button would utilize in the In-app Subscriptions model outlined in the Androd documentation. This would also use the Google Play Developer API on the backend using the Google Play developer Console." />
+            android:text="@string/payment_description" />
 
     </LinearLayout>
-
 
 </LinearLayout>

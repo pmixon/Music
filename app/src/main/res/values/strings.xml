@@ -23,4 +23,11 @@
     <string name="album">Album</string>
     <string name="manage_subscription">Manage Subscription</string>
     <string name="back_to_menu">main menu</string>
+    <string name="song_title">Song Title</string>
+    <string name="artist_name">Artist</string>
+    <string name="now_playing_textviwq">Now Playing: This screen displays the current song playing as well as music controls to go back, forward, stop and play the current song.</string>
+    <string name="search_textview_deaceription">Search: This screen provides a search tool the user can use to find new music. Again, interacting with the back end systems of the music subscription app and then displaying the data in the app UI below.</string>
+    <string name="search_field">Search</string>
+    <string name="settings_description">Settings: This screen allows the user to manage the app options as well as setup they payment and subscription plans for paid music.</string>
+    <string name="payment_description">The manage subscription button would utilize in the In-app Subscriptions model outlined in the Androd documentation. This would also use the Google Play Developer API on the backend using the Google Play developer Console.</string>
 </resources>
